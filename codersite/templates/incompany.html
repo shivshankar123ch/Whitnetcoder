@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+    
+	<div class="inner-banner">
+		<section class="w3l-breadcrumb text-left">
+			<div class="container">
+				<ul class="breadcrumbs-custom-path">
+					<li><a href="index">Home</a></li>
+					<li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span> In-Company Training</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+
+
+	<section class="w3l-index3" id="about1">
+		<div class="midd-w3 py-5">
+			<div class="container py-lg-5 py-md-3">
+				<div style="margin: 8px auto; display: block; text-align:center;">
+				</div>
+				<div class="row">
+					<div class="col-lg-6 mb-lg-0 mb-md-5 mb-4">
+						<img src="{% static 'images/incompany.jpg' %}" alt="" class="radius-image-full img-fluid">
+					</div>
+					<div class="col-lg-6 pl-lg-5 ">
+						<div class="header-title">
+							<h3 class="hny-title text-left">What is in-company training?</h3><br>
+						</div>
+						<p>In-company training courses bring together trainees with the same expectations and a similar level. 
+						   Each employee can thus benefit from the training easily and put it into practice without delay. 
+						   In-company training almost always involves an external training organisation
+						</p>
+						<p>The objectives of the training differ according to the needs of the learners, the company and the training organisation chosen. 
+						   In general, the modalities can be tailored to meet the needs and training objectives of the company with precision.
+					    </p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="w3l-servicesblock py-5" id="about">
+		<div class="container py-lg-5 py-md-3">
+			<div class="row">
+				<div class="col-lg-6 about-right-faq align-self mb-lg-0 mb-sm-5 mb-4 pr-lg-5">
+					<div class="header-title mb-md-5 mb-4">
+						<h3 class="hny-title text-left">Why do an in-company training?</h3>
+					</div>
+					<p>You have understood: the overall objective of in-company training is to train trainees from the same company so that they are 
+						operational in their missions. This type of training has many advantages. We present them to you.
+					</p>
+					<br>
+					<p> 1. Bringing together and training employees around a common project</p>
+					<p> 2. Valuing the skills of its employees</p>
+					<p> 3. Flexible training methods
+				</div>
+				<div class="col-lg-6 left-wthree-img mt-lg-0 mt-4">
+					<img src="{% static 'images/incompany1.png' %}" alt="" class="img-fluid radius-image">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div style="margin: 8px auto; display: block; text-align:center;">
+	</div>
+
+	<section class="w3l-form-25-section" id="subscribe">
+		<div class="form-25-mian">
+			<div class="container py-5">
+				<div class="row subscription-grids py-5">
+					<div class="col-lg-7 subscription-left forms-25-info">
+						<div class="header-title">
+							<h3 class="p-0">The greatest choice of courses</h3>
+						</div>
+					</div>
+					<div class="col-lg-5 subscription-right pl-lg-5 mt-lg-0 mt-4 text-lg-right">
+						<a href="signup" class="btn btn-style btn-white mr-lg-4 mr-sm-3"> Join Now <span class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<div style="margin: 8px auto; display: block; text-align:center;">
+	</div>
+{% include "footer.html"%}
+
+
+	<section class="w3l-copyright">
+		<div class="container">
+			<div class="row bottom-copies">
+				<div class="col-lg-4 footer-list-29">
+					<ul class="d-flex text-lg-right justify-content-center mt-lg-0 mt-3">
+						<li><a href="#careers"> Careers</a></li>
+						<li class="mx-lg-5 mx-md-4 mx-3"><a href="#privacymy-lg-0 my-4">Privacy Policy</a></li>
+						<li><a href="contact.html">Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+{% endblock %}

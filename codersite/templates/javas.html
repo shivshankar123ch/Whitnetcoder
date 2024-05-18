@@ -1,0 +1,182 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+	<div class="inner-banner">
+		<section class="w3l-breadcrumb">
+			<div class="container">
+				<ul class="breadcrumbs-custom-path">
+					<li><a href="services">Courses</a></li>
+					<li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span> JavaScript</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+    <br><br>
+	<div class="container">
+		<div id="accordion">
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h5 class="mb-0 d-inline">
+						<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							<strong> Syllabus For JavaScript</strong>
+						</button>
+					</h5>
+				</div>
+				<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+					<div class="card-body" id="child1">
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneA">Chapter 1: Fundamentals of JavaScript Code</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneA">
+								<ol>
+									<li>1. JavaScript methods</li>
+									<li>2. Variables</li>
+									<li>3. The importance of quotes</li>
+									<li>4. Numbers vs. strings</li>
+									<li>5. Concatenation</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneB">Chapter 2: Reusing Code with Functions</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneB">
+								<ol>
+									<li>1. Defining functions</li>
+									<li>2. Calling functions</li>
+									<li>3. Defining parameters & passing arguments</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneC">Chapter 3: Simple Accordion with JavaScript</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneC">
+								<ol>
+									<li> 1. Targeting elements by ID</li>
+									<li> 2. Hiding & showing elements with JavaScript</li>									
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneD">Chapter 4: Conditional Statements: Clearing Form Fields</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneD">
+								<ol>
+									<li> 1. Testing code in the JavaScript Console</li>
+									<li> 2. Getting & setting properties</li>									
+									<li> 3. Using if statements</li>									
+									<li> 4. Reshowing text hints in empty form fields</li>									
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneE">Chapter 5: Introduction to JavaScript Objects & the DOM</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneE">
+								<ol>
+									<li> 1. Intro to objects</li>
+									<li> 2. The global object</li>									
+									<li> 3. Breaking open & manipulating objects</li>									
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneF">Chapter 6: Dynamically Changing Content with Custom Objects </a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneF">
+								<ol>
+									<li> 1. Checking the functionality of the select menu</li>
+									<li> 2. Getting the chosen value</li>									
+									<li> 3. Dynamically changing the state name value</li>									
+									<li> 4. Dynamically changing the rest of the values</li>									
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneG">Chapter 7: Introduction to Arrays & the Math Object </a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneG">
+								<ol>
+									<li> 1. Creating an array</li>
+									<li> 2. Editing an array</li>									
+									<li> 3. Creating an array of welcome headings</li>									
+									<li> 4. The Math object</li>									
+									<li> 5. Using the Math object to pick random headlines</li>									
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneH">Chapter 8: Introduction to For Loops </a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneH">
+								<ol>
+									<li> 1. Creating a for loop</li>
+									<li> 2. Using the for loop to set dropdown menus</li>									
+									<li> 3. Clearing the To menu</li>									
+									<li> 4. Optional bonus: refining the menu selection experience</li>									
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneI">Chapter 9: Exploring JavaScript Selectors </a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneI">
+								<ol>
+									<li> 1. Intro to JavaScript selectors</li>
+									<li> 2. Selecting multiple elements & elements without IDs</li>									
+									<li> 3. Getting a specific list item</li>									
+									<li> 4. Getting elements by class name</li>									
+									<li> 5. Getting multiple items using querySelectorAll()</li>									
+									<li> 6. Getting a single item using querySelector()</li>									
+									<li> 7. Chaining selectors together</li>									
+									<li> 8. Targeting elements by data attribute</li>									
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneJ">Chapter 10: Photo Filter Website: User Friendly Navigation</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneJ">
+								<ol>
+									<li> 1. Setting up the selectors with data attributes</li>
+									<li> 2. Getting the selectors on load</li>									
+									<li> 3. Toggling the filter buttons</li>									
+									<li> 4. Refining the filter buttons</li>									
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+					
+    <div style="margin: 8px auto; display: block; text-align:center;">
+	</div>
+	{% include "footer.html"%}
+  
+	<section class="w3l-copyright">
+		<div class="container">
+			<div class="row bottom-copies">
+				<div class="col-lg-4 footer-list-29">
+					<ul class="d-flex text-lg-right justify-content-center mt-lg-0 mt-3">
+						<li><a href="#careers"> Careers</a></li>
+						<li class="mx-lg-5 mx-md-4 mx-3"><a href="#privacymy-lg-0 my-4">Privacy Policy</a></li>
+						<li><a href="contact">Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}

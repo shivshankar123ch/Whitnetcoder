@@ -1,0 +1,621 @@
+
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+    <div class="inner-banner">
+      <section class="w3l-breadcrumb">
+        <div class="container">
+          <ul class="breadcrumbs-custom-path">
+            <li><a href="services">Courses</a></li>
+			<li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span> Java</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+	<div class="container">
+		<div id="accordion">
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h5 class="mb-0 d-inline">
+						<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							<strong> Syllabus For Java</strong>
+						</button>
+					</h5>
+				</div>
+				<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+					<div class="card-body" id="child1">
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneA">Chapter 1: Core Java Programming</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneA">
+								<ol>
+									<li>1. What is Java?</li>
+									<li>2. Execution Model of Java</li>
+									<li>3. Byte code</li>
+									<li>4. A First Java Program</li>
+									<li>5. Compiling and Interpreting Applications</li>
+									<li>6. The JDK Directory Structure</li>
+									<li>7. Using Eclipse</li>
+									<li>8. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneB">Chapter 2: Data types and Variables</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneB">
+								<ol>
+									<li>1. What are data types?</li>
+									<li>2. Primitive Data types & Declarations</li>
+									<li>3. Variables & Types</li>
+									<li>4. Numeric & Character Literals</li>
+									<li>5. String formatting and Parsing</li>
+									<li>6. String Literals</li>
+									<li>7. Arrays, Non-Primitive Data types</li>
+									<li>8. Casting & Type Casting</li>
+									<li>9. Widening & Narrowing Conversions</li>
+									<li>10. The Dot Operator</li>
+									<li>11. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneC">Chapter 3: Methods</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneC">
+								<ol>
+									<li> 1. What are Methods?</li>
+									<li> 2. Method Structure</li>
+									<li> 3. Declaration Of Methods</li>
+									<li> 4. Calling Of Methods</li>
+									<li>5. Defining Methods</li>
+									<li> 6. Method Parameters Scope</li>
+									<li> 7. Why static methods?</li>
+									<li> 8. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+                
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneD">Chapter 4: Operators and Expressions</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneD">
+								<ol>
+									<li>   1. Expressions</li>
+									<li>2. Assignment Operator</li>
+									<li>3. Arithmetic Operators</li>
+									<li>4. Relational Operators</li>
+									<li>5. Logical Operators</li>
+									<li>6. Increment and Decrement Operators</li>
+									<li>7. Operate-Assign Operators (+=, etc.)</li>
+									<li>8. The Conditional Operator</li>
+									<li>9. Operator Precedence</li>
+									<li>10. The Cast Operator</li>
+									<li>11. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneE">Chapter 5: Control Flow Statements</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneE">
+								<ol>
+									<li>1. What are Control Flow Statements?</li>
+									<li>2. Conditional (if) Statements</li>
+									<li>3. Nested conditional Statements</li>
+									<li>4. Conditional (switch) Statements</li>
+									<li>5. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneF">Chapter 6: Loops and Control Statements</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneF">
+								<ol>
+									<li> 1. for Loop</li>
+									<li>2. while Loop</li>
+									<li>3. do while Loop</li>
+									<li>4. Enhanced for Loop</li>
+									<li>5. The continue Statement</li>
+									<li>6. The break Statement</li>
+									<li>7. Jump Statement</li>
+									<li>8. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneG">Chapter 7: Object-Oriented Programming (OOPS) concepts
+								</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneG">
+								<ol>
+									<li> 1. Object Oriented Programming</li>
+									<li>2. Classes & Objects (Introduction)</li>
+									<li>3. OOPS concepts and terminology</li>
+									<ol>
+									<li>a. Encapsulation & Examples</li>
+									<li>b. Abstraction & Examples</li>
+									<li>c. Inheritance</li>
+									</ol>
+									<li>4. Advantages of OOPS</li>
+									<li>5. Fundamentals of OOPS</li>
+									<li>6. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneH">Chapter 8: Objects and Classes</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneH">
+								<ol>
+									<li> 1. Defining a Class </li>
+									<li>2. Creating an Object</li>
+									<li>3. Accessing Class Members</li>
+									<li>4. Instance Data and Class Data</li>
+									<li>5. Defining Methods</li>
+									<li>6. Access Modifiers</li>
+									<li>7. Concept & Syntax of Methods</li>
+									<li>8. Constructors & Destructors</li>
+									<li>9. Access Control</li>
+									<li>10. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneI">Chapter 9: Java Objects</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneI">
+								<ol>
+									<li> 1. String Builder and String Buffer </li>
+									<li>2. Methods and Messages </li>
+									<li>3. Parameter Passing </li>
+									<li>4. Comparing and Identifying Objects </li>
+									<li>5. Practice Exercises </li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneJ">Chapter 10: Inheritance & Polymorphism</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneJ">
+								<ol>
+									<li> 1. Inheritance in Java </li>
+									<li>2. Why we use Inheritance?</li>
+									<li>3. Types Of Inheritance</li>
+										<ol>
+											<li>a. Single Inheritance</li>
+											<li>b. Multi-level Inheritance</li>
+											<li>c. Hierarchical Inheritance</li>
+											<li>d. Hybrid Inheritance</li>
+										</ol>
+									<li>4. Method Overloading</li>
+									<li>5. Run-time Polymorphism</li>
+									<li>6. Method Overriding</li>
+									<li>7. Polymorphism in Java</li>
+									<li>8. Types Of Polymorphism</li>
+									<li>9. Super & this keyword</li>
+									<li>10. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneK">Chapter 11: Java Files and I/O</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneK">
+								<ol>
+									<li> 1. What is a Stream?</li>
+									<li> 2. Reading and Writing to Files</li>
+									<li> 3. Input and Output Stream</li>
+									<li> 4. Manipulating input data</li>
+									<li> 5. Reading Lines</li>
+									<li> 6. Opening & Closing Streams</li>
+									<li> 7. Predefined Streams</li>
+									<li> 8. File handling Classes & Methods</li>
+									<li> 9. Using Reader & Writer classes</li>
+									<li> 10. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneL">Chapter 12: Interfaces and Abstract Classes</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneL">
+								<ol>
+									<li> 1. What is an Interface?</li>
+									<li>2. Defining Interfaces</li>
+									<li>3. Separating Interface and Implementation</li>
+									<li>4. Implementing and Extending Interfaces</li>
+									<li>5. Abstract Classes</li>
+									<li>6. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneM">Chapter 13: Packages</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneM">
+								<ol>
+									<li> 1. What is a Package? </li>
+									<li>2. Advantages of using a Package </li>
+									<li>3. Types Of Packages </li>
+									<li>4. Naming Convention </li>
+									<li>5. Steps For Creating Packages </li>
+									<li>6. The import Statement </li>
+									<li>7. Static Imports </li>
+									<li>8. CLASSPATH and Import </li>
+									<li>9. Defining Packages </li>
+									<li>10. Package Scope </li>
+									<li>11. Practice Exercises </li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneN">Chapter 14: Lambda Built-in Functional Interfaces</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneN">
+								<ol>
+								<li>1. Lambda Notation  </li>
+								<li>2. Lambda Syntax</li>
+								<li>3. Lambda Expression</li>
+								<li>4. java.util.function package</li>
+								<li>5. Use primitive versions of functional interface</li>
+								<li>6. Use binary versions of functional interface</li>
+								<li>7. Use the Unary Operator interface</li>
+								<li>8. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+							  <a href="#" data-toggle="collapse" data-target="#collapseOneO">Chapter 15: Exception Handling</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneO">
+								<ol>
+									<li> 1. Exceptions Overview</li> 
+									<li> 2. Exception Keywords</li> 
+									<li> 3. Catching Exceptions</li> 
+									<li> 4. The finally Block</li> 
+									<li> 5. Exception Methods</li> 
+									<li> 6. Declaring Exceptions</li> 
+									<li> 7. Defining and Throwing Exceptions</li> 
+									<li> 8. Errors and Runtime Exceptions</li> 
+									<li> 9. Assertions</li> 
+									<li> 10. Practice Exercises</li> 
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneP">Chapter 16: Collection Framework</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneP">
+								<ol>
+									<li> 1. The Collections Framework</li>
+									<li>2. The Set Interface</li>
+									<li>3. Set Interface Methods</li>
+									<li>4. Set Implementation Classes</li>
+									<li>5. The List Interface</li>
+									<li>6. List Implementation Classes</li>
+									<li>7. The Map Interfaces</li>
+									<li>8. Map Implementation Classes</li>
+									<li>9. Utility classes</li>
+									<li>10. Generics in Java</li>
+									<li>11. Primitive wrapper classes</li>
+									<li>12. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneQ">Chapter 17: Inner Classes</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneQ">
+								<ol>
+									<li> 1. Nested Classes </li>
+									<li>2. Anonymous Inner Classes</li>
+									<li>3. Local Nested Classes</li>
+									<li>4. Static Nested Classes</li>
+									<li>5. Member Classes</li>
+									<li>6. Instance Initializers</li>
+									<li>7. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneR">Chapter 18: Threads</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneR">
+							<ol>
+								<li> 1. Non-Threaded Applications</li>
+								<li>2. Introduction to Threads</li>
+								<li>3. Threaded Applications</li>
+								<li>4. Creating threads</li>
+								<li>5. Life Cycle Of A Thread</li>
+								<li>6. Phases of Thread life cycle</li>
+								<li>7. Runnable Interface</li>
+								<li>8. Priority Of Threads</li>
+								<li>9. Coordinating Threads</li>
+								<li>10. Thread Interruption</li>
+								<li>11. Thread Groups</li>
+								<li>12. Practice Exercises</li>
+							</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneS">Chapter 19: Swing</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneS">
+								<ol>
+									<li> 1. Introduction to Swing </li>
+									<li>2. Swing Features</li>
+									<li>3. Hierarchy of Java Swing Classes</li>
+									<li>4. Swing GUI Components</li>
+									<li>5. Packages used in Swing</li>
+									<li>6. Swing Control Classes & Methods</li>
+									<li>7. Using Swing API</li>
+									<li>8. Swing API MVC Architecture</li>
+									<li>9. AWT v/s Swing</li>
+									<li>10. Event Handling In Swing</li>
+									<li>11. Event Listener Interfaces</li>
+									<li>12. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneT">Chapter 20: Java MVC Architecture
+								</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneT">
+								<ol>
+									<li> 1. Three-tier architecture</li>
+									<li>2. Introduction to MVC</li>
+									<li>3. MVC Architecture</li>
+									<li>4. Advantages of MVC</li>
+									<li>5. Building pages with MVC</li>
+									<li>6. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneU">Chapter 21: Servlets
+								</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneU">
+								<ol>
+									<li> 1. What is a web application?  </li>
+									<li>2. What is a Servlet?</li>
+									<li>3. Advantages of Servlet</li>
+									<li>4. Servlet Class</li>
+									<li>5. Servlet Lifecycle</li>
+									<li>6. Servlet Context Interface</li>
+									<li>7. Advantages of Servlet Context</li>
+									<li>8. Session management</li>
+									<li>9. Session Tracking Techniques</li>
+									<li>10. Cookies</li>
+									<li>11. Hidden field</li>
+									<li>12. URL Rewriting</li>
+									<li>13. HTTP Session</li>
+									<li>14. Building the first Servlet</li>
+									<li>15. Deploying the Servlet</li>
+									<li>16. Servlet Examples</li>
+									<li>17. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneV">Chapter 22: JSP	</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneV">
+								<ol>
+									<li> 1. Introduction of JSP </li>
+									<li>2. JSP Architecture</li>
+									<li>3. JSP Processing</li>
+									<li>4. JSP Tag library</li>
+									<li>5. Core Tags</li>
+									<li>6. JSP Standard Tags</li>
+									<li>7. JSP Page Life Cycle</li>
+									<li>8. Creating the first Dynamic web page using JSP</li>
+									<li>9. Practice Exercises</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneW">Chapter 23: Hibernate</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneW">
+								<ol>
+									<li> 1. Introduction to Hibernate  </li>
+									<li>2. Hibernate v/s JDBC </li>
+									<li>3. What is an Object Relational Mapping? </li>
+									<li>4. Hibernate Features </li>
+									<li>5. Application Architecture  </li>
+									<li>6. Persistent Classes  </li>
+									<li>7. Object States  </li>
+											<ol>
+											<li>a) Transient State </li>
+											<li>b) Persistent State  </li>
+											<li>c) Detached State  </li>
+											</ol>
+									<li>8. Rules of Persistent Classes </li>
+									<li>9. Mapping Collections  </li>
+									<li>10. Hibernate Mapping File Elements </li>
+									<li>11. Types Of Mapping  </li>
+											<ol>
+											<li>a) One-to-one  </li>
+											<li>b) One-to-many mapping  </li>
+											<li>c) Many – one mapping  </li>
+											<li>d) Many – to – many mapping  </li>
+											</ol>
+									<li>12. Hibernate Query Language  </li>
+											<ol>
+											<li>a) Basic HQL Operations  </li>
+											<li>b) Advantages of HQL  </li>
+											</ol>
+									<li>13. Caching and Transactions  </li>
+											<ol>
+											<li>a) Types Of Cache  </li>
+											<li>b) Hibernate Transaction Management </li>
+											<li>c) Transaction Interface In Hibernate  </li>
+											</ol>
+									<li>14. Hibernate with Web Applications </li>
+									<li>15. Practice Exercises  </li>	
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneX">Chapter 24: Spring</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneX">
+								<ol>
+									<li> 1. Introduction of Spring Framework </li>
+											<ol>
+											<li>a. Characteristics of Spring</li>
+											<li>b. Spring Framework Architecture</li>
+											<li>c. Spring Framework Modules</li>
+											<li>d. Spring Platform Advantage</li>
+											</ol>
+									<li>2. Spring bean Wiring</li>
+											<ol> 
+											<li>a. Dependency Injection</li>
+											<li>b. IoC Containers</li>
+											<li>c. Spring Bean Lifecycle</li>
+											<li>d. Beans Auto Wiring</li> 
+											<li>e. Autowiring Limitations</li>
+											</ol>
+									<li>3. Spring with database</li>
+											<ol> 
+											<li>a. Introduction to JDBC</li>
+											<li>b. Limitations of JDBC API</li>
+											<li>c. Spring JDBC Approaches</li>
+											<li>d. Jdbc Template Class</li>
+											</ol> 
+									<li>4. Jdbc Template Class Methods</li>
+									<li>5. Data Access Object (DAO)</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+							  <a href="#" data-toggle="collapse" data-target="#collapseOneY">Chapter 25: Struts2</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneY">
+								<ol>
+									<li> 1. Introduction to Struts </li>
+											<ol>
+											<li>a. What is a Web Framework</li>
+											<li>b. Limitations of JSP/Servlet Coding</li>
+											<li>c. MVC1 v/s MVC2</li>
+											<li>d. What is Struts</li>
+											<li>e. Invasive v/s Non invasive Frameworks</li>
+											<li>f. Modules in Struts 2</li>
+											<li>g. Request Processing Lifecycle</li>
+											<li>h. Struts1 v/s Struts2</li>
+											<li>i. Advantages of Struts2</li>
+											</ol>
+									<li>2 . Struts2 MVC Architecture</li>
+										<ol> 
+										<li>a. Actions Component</li>
+										<li>b. Results & Result Types</li>
+										<li>c. The Value Stack</li>
+										</ol> 
+									<li>3. Action Classes</li>
+										<ol> 
+										<li>a. Introduction to Action Class</li>
+										<li>b. Characteristics Of Action Class</li>
+										<li>c. Action Support Class</li>
+										<li>d. Action Interface</li>
+										</ol> 
+									<li>4. Handling Application Requests</li>
+										<ol>
+										<li>a. Handling Form Data</li>
+										<li>b. Struts2 Form</li>
+										<li>c. Java Bean Class</li>
+										<li>d. Success Page</li>
+										<li>e. Configuring Struts2</li>
+										</ol> 
+									<li>5. Deployment Descriptors</li>
+										<ol>
+										<li>a. The web.xml file</li>
+										<li>b. The struts.xml file</li>
+										<li>c. The struts-config.xml file</li>
+										<li>d. The struts.Properties file</li>
+										</ol>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneZ">Chapter: 26 SQL</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneZ">
+								<ol>
+									<li> 1. Introduction to RDBMS </li>
+									<li>2. Features of RDBMS</li>
+									<li>3. Introduction to SQL</li>
+									<li>4. Basic Terminologies</li>
+									<li>5. PLSQL Data Types</li>
+									<li>6. Primary Key v/s Foreign Key</li>
+									<li>7. The Unique Constraint</li>
+									<li>8. DDL Statements</li>
+									<li>9. DML Statements</li>
+									<li>10. Retrieving Records</li>
+									<li>11. Normalization</li>
+									<li>12. Functions in SQL</li>
+									<li>13. Handling Null Values</li>
+									<li>14. SQL Joins</li>
+											<ol>
+											<li>a. Inner Joins</li>
+											<li>b. Outer Joins</li>
+											<li>c. Right Joins</li>
+											<li>d. Left Joins</li>
+											<li>e. Cross Joins</li>
+											</ol>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="margin: 8px auto; display: block; text-align:center;">
+	</div>
+	{% include "footer.html"%}
+	<section class="w3l-copyright">
+		<div class="container">
+			<div class="row bottom-copies">
+				<div class="col-lg-4 footer-list-29">
+					<ul class="d-flex text-lg-right justify-content-center mt-lg-0 mt-3">
+						<li><a href="#careers"> Careers</a></li>
+						<li class="mx-lg-5 mx-md-4 mx-3"><a href="#privacymy-lg-0 my-4">Privacy Policy</a></li>
+						<li><a href="contact">Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}

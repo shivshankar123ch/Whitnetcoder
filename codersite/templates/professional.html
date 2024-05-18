@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+	<div class="inner-banner">
+		<section class="w3l-breadcrumb text-left">
+			<div class="container">
+				<ul class="breadcrumbs-custom-path">
+					<li><a href="index">Home</a></li>
+					<li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span> Professional Training</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+
+
+	<section class="w3l-index3" id="about1">
+		<div class="midd-w3 py-5">
+			<div class="container py-lg-5 py-md-3">
+				<div style="margin: 8px auto; display: block; text-align:center;">
+				</div>
+				<div class="row">
+					<div class="col-lg-6 mb-lg-0 mb-md-5 mb-4">
+						<img src="{% static 'images/prof.jpg' %}" alt="" class="radius-image-full img-fluid">
+					</div>
+					<div class="col-lg-6 pl-lg-5 ">
+						<div class="header-title">
+							<h3 class="hny-title text-left">Professional Training</h3>
+						</div>
+						<p class="mt-3">Building knowledge, skills and competence in individuals, a group or team</p><br>
+						<p>Development of universal, professional competencies and means students, mediated a different level of training, personal experience and attitude to the future profession. </p><br>
+						<p>The development of human resources through training promotes job quality, efficiency, and effectiveness and at the same time motivates employees to make a formal commitment to growing with the institution and being more productive.</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div style="margin: 8px auto; display: block; text-align:center;">
+	</div>
+  
+	<section class="w3l-form-25-section" id="subscribe">
+		<div class="form-25-mian">
+			<div class="container py-5">
+				<div class="row subscription-grids py-5">
+					<div class="col-lg-7 subscription-left forms-25-info">
+						<div class="header-title">
+							<h3 class="p-0">The greatest choice of courses</h3>
+						</div>
+					</div>
+					<div class="col-lg-5 subscription-right pl-lg-5 mt-lg-0 mt-4 text-lg-right">
+						<a href="signup" class="btn btn-style btn-white mr-lg-4 mr-sm-3"> Join Now <span
+						class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div style="margin: 8px auto; display: block; text-align:center;">
+	</div>
+{% include "footer.html"%}
+
+
+	<section class="w3l-copyright">
+		<div class="container">
+			<div class="row bottom-copies">
+				<div class="col-lg-4 footer-list-29">
+					<ul class="d-flex text-lg-right justify-content-center mt-lg-0 mt-3">
+						<li><a href="#careers"> Careers</a></li>
+						<li class="mx-lg-5 mx-md-4 mx-3"><a href="#privacymy-lg-0 my-4">Privacy Policy</a></li>
+						<li><a href="contact.html">Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+    
+{% endblock %}

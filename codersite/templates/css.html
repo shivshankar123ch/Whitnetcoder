@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+	<div class="inner-banner">
+		<section class="w3l-breadcrumb">
+			<div class="container">
+				<ul class="breadcrumbs-custom-path">
+					<li><a href="services">Courses</a></li>
+					<li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span> Css</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+    <br><br>
+   
+	<div class="container">
+		<div id="accordion">
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h5 class="mb-0 d-inline">
+						<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							<strong> Syllabus For CSS</strong>
+						</button>
+					</h5>
+				</div>
+				<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+					<div class="card-body" id="child1">
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneA">Chapter 1: CSS Introduction</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneA">
+								<ol>
+								<li>1.Introduction</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneB">Chapter 2: CSS Syntax</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneB">
+								<ol>
+								<li>1. Class </li>
+								<li>2. ID</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneC">Chapter 3: CSS Styling</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneC">
+								<ol>
+									<li> 1. Styling Backgrounds</li>
+									<li> 2. Styling Text</li>
+									<li> 3. Styling Fonts</li>
+									<li> 4. Styling Links</li>
+									<li>5. Styling Lists</li>
+									<li> 6. Styling Tables</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneD">Chapter 4: CSS Box Model</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneD">
+								<ol>
+									<li> 1. CSS Border</li>
+									<li> 2. CSS Outline</li>
+									<li> 3. CSS Margin</li>
+									<li> 4. CSS Padding</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneE">Chapter 5: CSS Advanced</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneE">
+								<ol>
+									<li> 1. CSS Grouping/Nesting</li>
+									<li> 2. CSS Dimension</li>
+									<li> 3. CSS Display</li>
+									<li> 4. CSS Positioning</li>
+									<li> 5. CSS Floating</li>
+									<li> 6. CSS Align</li>
+									<li> 7. CSS Navigation Bar</li>
+								</ol>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneF">Chapter 6: CSS Image</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneF">
+								<ol>
+									<li> 1. CSS Image Gallery</li>
+									<li> 2. CSS Image Opacity</li>
+									<li> 3. CSS Image Sprites</li>
+									<li> 4. CSS Media Types</li>
+									<li> 5. CSS hacking</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div style="margin: 8px auto; display: block; text-align:center;">
+
+	</div>
+	{% include "footer.html"%}
+  
+  
+	<section class="w3l-copyright">
+		<div class="container">
+			<div class="row bottom-copies">
+				<div class="col-lg-4 footer-list-29">
+					<ul class="d-flex text-lg-right justify-content-center mt-lg-0 mt-3">
+						<li><a href="#careers"> Careers</a></li>
+						<li class="mx-lg-5 mx-md-4 mx-3"><a href="#privacymy-lg-0 my-4">Privacy Policy</a></li>
+						<li><a href="contact">Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}

@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+    
+	<div class="inner-banner">
+		<section class="w3l-breadcrumb">
+			<div class="container">
+				<ul class="breadcrumbs-custom-path">
+					<li><a href="services">Courses</a></li>
+					<li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span> Html</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+   
+    <br><br>
+
+    
+	<div class="container">
+		<div id="accordion">
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h5 class="mb-0 d-inline">
+						<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							<strong> Syllabus For HTML</strong>
+						</button>
+					</h5>
+
+				</div>
+				<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+					<div class="card-body" id="child1">
+						<div class="card">
+							<div class="card-header">
+								<a href="#" data-toggle="collapse" data-target="#collapseOneA">Chapter 1: Introduction of Basic HTML Tags</a>
+							</div>
+							<div class="card-body collapse" data-parent="#child1" id="collapseOneA">
+								<ol>
+									<li>1.  HTML Elements</li>
+									<li>2.	HTML Attributes</li>
+									<li>3.	HTML Headings</li>
+									<li>4.	HTML Paragraphs</li>
+									<li>5.	HTML Formatting</li>
+									<li>6.	HTML Fonts</li>
+									<li>7.	HTML Styles</li>
+									<li>8.	HTML Links</li>
+									<li>9.	HTML Images</li>
+									<li>10.	HTML Tables</li>
+									<li>11.	HTML Lists</li>
+								</ol>
+							</div>
+						</div>
+				<div class="card">
+					<div class="card-header">
+						<a href="#" data-toggle="collapse" data-target="#collapseOneB">Chapter 2: HTML Advance Tags </a>
+					</div>
+					<div class="card-body collapse" data-parent="#child1" id="collapseOneB">
+						<ol>
+							<li>1.	HTML Forms</li>
+							<li>2.	HTML Frames</li>
+							<li>3.	HTML Iframes</li>
+							<li>4.	HTML Colors</li>
+							<li>5.	HTML Colornames</li>
+							<li>6.	HTML Colorvalues</li>
+							<li>7.	HTML Quick List</li>
+							<li>8.	HTML Layout</li>
+							<li>9.	HTML Doctypes</li>
+							<li>10.	HTML Head</li>
+							<li>11.	HTML Meta</li>
+							<li>12.	HTML Scripts</li>
+							<li>13.	HTML Entities</li>
+							<li>14.	HTML URLs</li>
+							<li>15.	HTML URL Encode</li>
+							<li>16.	HTML Media</li>
+							<li>17.	HTML Audio</li>
+							<li>18.	HTML Object</li>
+							<li>19.	HTML Video</li>
+							<li>20.	HTML YouTube</li>
+							<li>21.	HTML Media Tags</li>
+						</ol>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<a href="#" data-toggle="collapse" data-target="#collapseOneC">Chapter 3: HTML5</a>
+					</div>
+					<div class="card-body collapse" data-parent="#child1" id="collapseOneC">
+						<ol>
+							<li>1.	HTML5 Introduction</li>
+							<li>2.	HTML5 New Elements</li>
+							<li>3.	HTML5 Video</li>
+							<li>4.	HTML5 Video/DOM</li>
+							<li>5.	HTML5 Audio</li>
+							<li>6.	HTML5 Drag and Drop</li>
+							<li>7.	HTML5 Canvas</li>
+							<li>8.	HTML5 SVG</li>
+							<li>9.	HTML5 Canvas vs. SVG</li>
+							<li>10.	HTML5 Geolocation</li>
+							<li>11.	HTML5 Web Storage</li>
+							<li>12.	HTML5 App Cache</li>
+							<li>13.	HTML5 Web Workers</li>
+							<li>14.	HTML5 SSE</li>
+							<li>15.	HTML5 Tags</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div style="margin: 8px auto; display: block; text-align:center;">
+	</div>
+	{% include "footer.html"%}
+
+
+	<section class="w3l-copyright">
+		<div class="container">
+			<div class="row bottom-copies">
+				<div class="col-lg-4 footer-list-29">
+					<ul class="d-flex text-lg-right justify-content-center mt-lg-0 mt-3">
+						<li><a href="#careers"> Careers</a></li>
+						<li class="mx-lg-5 mx-md-4 mx-3"><a href="#privacymy-lg-0 my-4">Privacy Policy</a></li>
+						<li><a href="contact">Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+{% endblock %}
